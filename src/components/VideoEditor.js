@@ -5,6 +5,7 @@ import { VideoPlayer } from "./VideoPlayer"
 import { sliderValueToVideoTime } from "../utils/utils"
 import VideoUpload from "./VideoUpload"
 import VideoConversionButton from "./VideoConversionButton"
+import Navbar from "./Navbar"
 const ffmpeg = createFFmpeg({ log: true })
 
 function VideoEditor() {
